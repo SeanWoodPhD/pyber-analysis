@@ -103,9 +103,9 @@ The final resulting Data Frame containing all of the summary data is shown here:
 
 ![Summary Data Frame](resources/SummaryDataFrame.png)
 
-The number of drivers and rides as well as the total fares increase going from rural to urban cities. These numbers scale with city population as expected and thus are not very informative as a result. It would be more interesting to normalize the numbers of drivers and rides and total fares by city population (for instance, drivers or rides per 100,000 residents) and then see how these values compare. PyBer would want the normalized values to be roughly equal between the three city types to make sure there is an appropriate balance between the number of riders and drivers.
+**The number of drivers and rides as well as the total fares increase going from rural to urban cities.** These numbers scale with city population as expected and thus are not very informative as a result. It would be more interesting to normalize the numbers of drivers and rides and total fares by city population (for instance, drivers or rides per 100,000 residents) and then see how these values compare. PyBer would want the normalized values to be roughly equal between the three city types to make sure there is an appropriate balance between the number of riders and drivers.
 
-Speaking of the balance between riders and drivers, the average fares per rider and per driver actually decrease as city size increases. There are a couple reasons for this.
+Speaking of the balance between riders and drivers, **the average fares per rider and per driver actually decrease as city size increases**. There are a couple reasons for this.
 - First is simple economics: supply vs. demand. In rural towns, there are fewer drivers overall so they are able to charge more per ride. Increasing the number of drivers would cause the price per ride to come down. However in urban cities, there is actually an oversupply of drivers. Looking at the chart above, there are 2,405 drivers and only 1,625 rides meaning at least 780 drivers completed ZERO rides. These customer-less drivers bring the overall average fare per driver down by contributing to the driver count but not to higher total fares. Additionally, in urban environments there are often alternate modes of transportation such as trains, buses, or even walking, so people may opt for those instead of riding with PyBer.
 - Second is the amount of sprawl or building/population density of each city type. In urban cities, people and places are more densely packed together. A customer may only have to travel a few blocks to their destination, so rides tend to be shorter and cheaper. In rural areas, sprawl is much greater; a PyBer customer may need to travel many miles to reach their destination. Longer rides mean higher fares.
 
@@ -113,7 +113,7 @@ The final line plot showing Total Fare By City Type over January through April o
 
 ![Total Fare by City Type](analysis/PyBer_fare_summary.png)
 
-There are no concrete time-dependent trends correlating total fare to a given week. However despite the disadvantages for urban cities mentioned above, it still generates the highest total fares of the given city types. Again, this plot might be more useful if normalized by population (per 100,000 residents).
+There are no concrete time-dependent trends correlating total fare to a given week. However despite the disadvantages mentioned above, **urban cities generate the highest total fares of the given city types**. Again, this plot might be more useful if normalized by population (per 100,000 residents).
 
 
 ### Summary
