@@ -111,7 +111,7 @@ Speaking of the balance between riders and drivers, the average fares per rider 
 
 The final line plot showing Total Fare By City Type over January through April of 2019 for all city types is shown here:
 
-![Total Fare by City Type](Analysis/PyBer_fare_summary.png)
+![Total Fare by City Type](analysis/PyBer_fare_summary.png)
 
 There are no concrete time-dependent trends correlating total fare to a given week. However despite the disadvantages for urban cities mentioned above, it still generates the highest total fares of the given city types. Again, this plot might be more useful if normalized by population (per 100,000 residents).
 
