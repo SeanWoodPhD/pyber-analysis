@@ -22,7 +22,7 @@ We have been given the three deliverables shown below, along with subtasks for e
 ## Data Preparation
 Prior to completing the deliverables, code was written to read the two .csv datasets and then merge them such that the line containing data for each ride (from [ride_data.csv](Resources/ride_data.csv)) also contained the data for the city in that line (from [city_data.csv](Resources/city_data.csv)).
 
-![0.1.png](Resources/0.1.png)
+![0.1.png](resources/0.1.png)
 
 ![0.2.png](Resources/0.2.png)
 
